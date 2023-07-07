@@ -7,7 +7,7 @@
   padding: 12px 90px;
   text-align: center;
   justify-content: center;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 900;
   cursor: pointer;
   margin: 0px 20px;
@@ -26,16 +26,110 @@
 }
 #main-Calculator {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  
-  
+  margin-top: 5%;
 }
-#input{
-
+#input {
   width: 400px;
   text-align: center;
   justify-content: center;
   align-items: center;
   border: 1px solid black;
   padding: 18px 100px;
-  margin-left: 60px;
+  margin-left: 90px;
+}
+@media (max-width: 1180px) and (min-width: 768px) {
+  #main-Calculator {
+    width: 50%;
+
+    margin: auto;
+  }
+  .input {
+    padding: 12px 36px;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+    margin: 0px 20px;
+  }
+  .mainBtn {
+    padding: 12px 50px;
+    margin-left: 60px;
+    background-color: rgb(234, 61, 61);
+    font-weight: 800;
+  }
+  #input {
+    width: 40%;
+    margin: auto;
+    border: 1px solid red;
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .calculator-div {
+    width: 60%;
+  }
+  .calculator-div > div {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 880px) and (min-width: 450px) {
+  #main-Calculator {
+    width: 60%;
+
+    margin: auto;
+  }
+  .input {
+    padding: 8px 15px;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+    margin: 0px 20px;
+  }
+  .mainBtn {
+    padding: 7px 15px;
+    margin-left: 60px;
+    background-color: rgb(234, 61, 61);
+    font-weight: 800;
+  }
+  #input {
+    width: 10%;
+    margin: auto;
+    border: 1px solid red;
+    text-align: center;
+    font-weight: 600;
+    font-size: 17px;
+  }
+}
+@media (max-width: 449px) and (min-width: 320px) {
+  #main-Calculator {
+    width: 60%;
+
+    margin: auto;
+  }
+  .input {
+    padding: 6px 10px;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+    margin: 0px 20px;
+  }
+  .mainBtn {
+    padding: 7px 15px;
+    margin-left: 60px;
+    background-color: rgb(234, 61, 61);
+    font-weight: 800;
+  }
+  #input {
+    width: 8%;
+    margin: auto;
+    border: 1px solid red;
+    text-align: center;
+    font-weight: 600;
+    font-size: 17px;
+  }
 }
